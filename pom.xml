@@ -23,15 +23,15 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.13.2</version>
-      <scope>test</scope>
+      <scope>compile</scope>
     </dependency>
     
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.4.0</version>
-			<scope>test</scope>
+			<version>7.5</version>
+			<scope>compile</scope>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -91,7 +91,7 @@
         	<version>2.19.1</version>
         	<configuration>
         		<suiteXMLFiles>
-        			<suiteXMLFile>src/main/resources/TestNGRunner.xml</suiteXMLFile>
+        			<suiteXMLFile>/outlook/src/main/resources/TestNGRunner.xml</suiteXMLFile>
         		</suiteXMLFiles>
         	</configuration>
         </plugin>
