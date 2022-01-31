@@ -98,11 +98,11 @@ WebDriver driver;
 	
 
 	
-	@FindBy(how=How.XPATH,using="//*[@class=\"_2ZDUqsleGa-jar5wAYvVzV\"]")
+	@FindBy(how=How.CLASS_NAME,using="_2ZDUqsleGa-jar5wAYvVzV")
 	private List<WebElement> unreademails;
 	
 	public void Unread() {
-		String Mailer = "Zoom";
+		String Mailer = "Pranav Duggal";
 		
 		for(int i=0;i<unreademails.size();i++) {
 			if(unreademails.get(i).isDisplayed()==true){

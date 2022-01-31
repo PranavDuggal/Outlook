@@ -25,9 +25,9 @@ public class TC_Login {
 		WebDriver driver = BrowserManager.getDriver(browser,url);
 		PO_Login obj = PageFactory.initElements(driver,PO_Login.class);
 		obj.Home();
-		obj.SetEmail(sc.next());
+		obj.SetEmail("pduggal1999@hotmail.com");
 		obj.ClickNextButton();
-		obj.SetPassword(sc.next());
+		obj.SetPassword("unahbduggal11");
 		obj.ClickSigninButton();
 		obj.Checkbox();
 		obj.Button();
